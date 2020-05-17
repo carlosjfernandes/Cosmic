@@ -1,5 +1,6 @@
 # PHPStorm
 .idea
 vendor/*
+public/ms-config/*
 composer.phar
 composer.lock
