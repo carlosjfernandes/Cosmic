@@ -1,6 +1,6 @@
 # PHPStorm
 .idea
 vendor/*
-public/ms-config/*
+public/ms-swf/*
 composer.phar
 composer.lock
