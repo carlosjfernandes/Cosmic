@@ -57,7 +57,7 @@ $GLOBALS['language'] = array (
             'header_slogan2'        => 'Join our community and make new friends',
             'header_login'          => 'Entrar',
             'header_register'       => 'Registrate Gratis',
-            'header_to'             => 'To',
+            'header_to'             => 'Entrar a',
 
             'footer_helptool'       => 'Herramientas de ayuda',
             'footer_rules'          => 'Reglas',
@@ -79,23 +79,23 @@ $GLOBALS['language'] = array (
 
             'web_dialog_cancel'                             => 'Cancelar',
             'web_dialog_validate'                           => 'Validar',
-            'web_dialog_confirm'                            => 'Confirm your choice',
+            'web_dialog_confirm'                            => 'Confirma tu elección',
 
-            'web_hotel_backto'                              => 'Back to ' . Config::site['shortname'] . ' Hotel',
+            'web_hotel_backto'                              => 'Regresar a ' . Config::site['shortname'] . ' Hotel',
 
             'web_fill_pincode'                              => 'Enter the pin code that you specified when creating the extra security on your account. Well, I forgot this one? Then contact us via the ' . Config::site['shortname'] . ' Help Tool',
             'web_twostep'                                   => 'Two-step authorization!',
             'web_login'                                     => 'You must be logged in to report this message!',
-            'web_loggedout'                                 => 'Logged out :(',
+            'web_loggedout'                                 => 'Desconectado',
 
-            'web_notifications_success'                     => 'Success!',
-            'web_notifications_error'                       => 'Error!',
-            'web_notifications_info'                        => 'Information!',
+            'web_notifications_success'                     => 'Éxito',
+            'web_notifications_error'                       => 'Error',
+            'web_notifications_info'                        => 'Información',
 
-            'web_page_article_login'                        => 'You must be logged in to post a comment!',
+            'web_page_article_login'                        => 'Debes iniciar sesión para publicar un comentario.',
 
-            'web_page_community_photos_login'               => 'You must be logged in to like photos!',
-            'web_page_community_photos_loggedout'           => 'Logged out :(',
+            'web_page_community_photos_login'               => 'Debes iniciar sesión para que te gusten las fotos.',
+            'web_page_community_photos_loggedout'           => 'Desconectado',
 
             'web_page_forum_change'                         => 'Change',
             'web_page_forum_cancel'                         => 'Cancel',
@@ -103,10 +103,10 @@ $GLOBALS['language'] = array (
             'web_page_forum_topic_closed'                   => 'This topic is closed and you can no longer respond.',
             'web_page_forum_login_toreact'                  => 'In order to respond, you need to be logged in!',
             'web_page_forum_login_tolike'                   => 'You must be logged in to like this post!',
-            'web_page_forum_loggedout'                      => 'Logged out :(',
+            'web_page_forum_loggedout'                      => 'Desconectado',
 
             'web_page_profile_login'                        => 'You must be logged in to like photos!',
-            'web_page_profile_loggedout'                    => 'Logged out :(',
+            'web_page_profile_loggedout'                    => 'Desconectado',
 
             'web_page_settings_namechange_request'          => 'Request',
             'web_page_settings_namechange_not_available'    => 'Not available',
@@ -301,7 +301,7 @@ $GLOBALS['language'] = array (
             'popular_groups'          => 'Grupos Populares',
             'popular_groups_label'    => 'Who do you want to join?',
             'popular_no_groups'       => 'No groups have been created yet!',
-            'load_news'               => 'Load more news',
+            'load_news'               => 'Cargar más noticias',
             'user_of_the_week'        =>  Config::site['shortname'] . ' of the week',
             'user_of_the_week_label'  => 'User of the week'
         ),
