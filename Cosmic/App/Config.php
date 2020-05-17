@@ -35,7 +35,7 @@ class Config
 
     const site = array(
       'domain'      => 'habbu.org',
-      'cpath'       => 'https://habbus.org/ms-swf',
+      'cpath'       => 'https://habbu.org/ms-swf',
       'fpath'       => 'https://habbo.com.br/habbo-imaging',
       'shortname'   => 'Habbu',
       'sitename'    => 'Habbu'
