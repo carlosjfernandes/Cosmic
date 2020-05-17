@@ -2,14 +2,14 @@
 {% block body %}
 <header class="page-header flex-container flex-vertical-center">
     <div class="page-header-content">
-        <h1>{{locale.title}} {{data.player.username}} <a onclick="openSearch()" style="border: none;color:#000; cursor: pointer"><i class="fa fa-search"></i></a></h1>
+        <h1>{{locale.title}} {{data.player.username}} <!-- <a onclick="openSearch()" style="border: none;color:#000; cursor: pointer"><i class="fa fa-search"></i></a> --></h1>
     </div>
 </header>
 <div id="searchOverlay" class="overlay">
     <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
     <div class="overlay-content">
         <form action="profile/search">
-            <input type="text" placeholder="Wie zoek je?" name="search">
+            <input type="text" placeholder="¿A quién estás buscando?" name="search">
             <button type="submit" onclick="closeSearch()"><i class="fa fa-search"></i></button>
         </form>
     </div>
@@ -28,11 +28,11 @@
             </div>
             <div class="aside-content">
                 <div class="profile-content">
-                    <div class="details-container register">{{site.shortname}} {{locale.since}} <b>{{data.player.account_created|date("d-m-Y")}}</b></div>
+                    <div class="details-container register">En {{site.shortname}} {{locale.since}} <b>{{data.player.account_created|date("d-m-Y")}}</b></div>
                     {% if data.player.settings.hide_online == 0 or 'housekeeping' in permissions %}
-                        <div class="details-container status">{{locale.currently}} <strong class="{% if data.player.online == 0 %}offline{% set status = 'offline' %}{% else %}online{% set status = 'online' %}{% endif %}">{{status}}</strong></div>
+                        <div class="details-container status">{{locale.currently}} <strong class="{% if data.player.online == 0 %}Desconectado{% set status = 'offline' %}{% else %}Conectado{% set status = 'online' %}{% endif %}">{{status}}</strong></div>
                     {% else %}
-                        <div class="details-container status">{{locale.currently}} <strong class="offline">offline</strong></div>
+                        <div class="details-container status">{{locale.currently}} <strong class="offline">Desconectado</strong></div>
                     {% endif %}
 
                     {% if data.player.settings.hide_last_online == 0 or 'housekeeping' in permissions %}
