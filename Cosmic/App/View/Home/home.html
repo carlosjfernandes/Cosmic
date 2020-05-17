@@ -164,6 +164,19 @@
             </div>
             {% endif %}
 
+            <div class="right-side" style="margin-bottom: 7px;">
+                <aside class="default-section">
+                    <div class="aside-title-content">Facebook</div>
+                    <div class="aside-desc-content">Regalanos tu apoyo en esta red social para seguir creciendo</div>
+                    <div class="aside-content">
+                        <div id="fb-root"></div>
+                        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v7.0"></script>
+
+                        <div class="fb-page" data-href="https://web.facebook.com/habbu.org" data-tabs="timeline" data-width="" data-height="350" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    </div>
+                </aside>
+            </div>
+
             {% if player is empty %}
             <div class="articles-container">
                 {% for news in news %}
