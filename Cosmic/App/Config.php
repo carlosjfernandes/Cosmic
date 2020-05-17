@@ -15,7 +15,7 @@ class Config
       'external_override_variables' => 'gamedata/override/external_override_variables.txt?v=4',
       'external_override_texts'     => 'gamedata/override/external_flash_override_texts.txt?v=9',
       'external_variables'          => 'gamedata/external_variables.txt?v=11',
-      'external_texts'              => 'http://154.16.67.70/Cosmic/public/library/gamedata/external_flash_texts.txt', //'gamedata/external_flash_texts.txt',
+      'external_texts'              => 'gamedata/external_flash_texts.txt',
       'external_figurepartlist'     => 'gamedata/figuredata.xml',
       'external_figuremap'          => 'gordon/PRODUCTION-201904011212-888653470/figuremap.xml',
       'external_productdata'        => 'gamedata/productdata.txt',
