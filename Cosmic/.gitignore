@@ -1,5 +1,6 @@
 # PHPStorm
 .idea
 vendor/*
+public/ms-swf/*
 composer.phar
 composer.lock

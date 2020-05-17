@@ -236,3 +236,32 @@
 13:53:52.408 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 34 for talenttrack level 2 of type CITIZENSHIP
 13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 2
 13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 10 for talenttrack level 3 of type CITIZENSHIP
+13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 80 for talenttrack level 3 of type CITIZENSHIP
+13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 12 for talenttrack level 3 of type CITIZENSHIP
+13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 51 for talenttrack level 3 of type CITIZENSHIP
+13:53:52.423 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 3
+13:53:52.439 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 4
+13:53:53.033 [main] ERROR com.eu.habbo.util.imager.badges.BadgeImager - BadgeImager output folder: D:\Xampp\htdocs\game\c_images\Badgeparts does not exist!
+14:20:09.279 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found enc.enabled
+14:20:09.279 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found enc.enabled
+14:20:09.294 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found enc.e
+14:20:09.294 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found enc.n
+14:20:09.294 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found enc.d
+14:20:10.357 [main] ERROR com.eu.habbo.core.ConfigurationManager - Config key not found allowed.username.characters
+14:20:11.591 [main] ERROR com.eu.habbo.habbohotel.pets.PetManager - Missing pet_actions table entry for pet id 0
+14:20:11.591 [main] ERROR com.eu.habbo.habbohotel.pets.PetManager - Missing pet_actions table entry for pet id 0
+14:20:11.607 [main] ERROR com.eu.habbo.habbohotel.pets.PetManager - Missing pet_actions table entry for pet id 0
+14:20:11.607 [main] ERROR com.eu.habbo.habbohotel.pets.PetManager - Missing pet_actions table entry for pet id 0
+14:20:11.607 [main] ERROR com.eu.habbo.habbohotel.pets.PetManager - Missing pet_actions table entry for pet id 0
+14:20:12.185 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 9 for talenttrack level 0 of type CITIZENSHIP
+14:20:12.185 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 0
+14:20:12.185 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 1 for talenttrack level 1 of type CITIZENSHIP
+14:20:12.185 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 50 for talenttrack level 1 of type CITIZENSHIP
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 12 for talenttrack level 1 of type CITIZENSHIP
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 34 for talenttrack level 1 of type CITIZENSHIP
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 1
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 10 for talenttrack level 2 of type CITIZENSHIP
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 12 for talenttrack level 2 of type CITIZENSHIP
+14:20:12.201 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 34 for talenttrack level 2 of type CITIZENSHIP
+14:20:12.216 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Incorrect reward furni (ID: 508) for talent track level 2
+14:20:12.216 [main] ERROR com.eu.habbo.habbohotel.achievements.TalentTrackLevel - Could not find achievement with ID 10 for talenttrack level 3 of type CITIZENSHIP

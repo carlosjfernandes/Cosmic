@@ -12,8 +12,8 @@ class Config
     /* Example external_base: = 'gordon/PRODUCTION-201904011212-888653470' */
     
     const client = array(
-      'external_override_variables' => 'gamedata/override/external_override_variables.txt?v=4',
-      'external_override_texts'     => 'gamedata/override/external_flash_override_texts.txt?v=9',
+      'external_override_variables' => 'gamedata/override/external_override_variables.txt',
+      'external_override_texts'     => 'gamedata/override/external_override_variables.txt', //'gamedata/override/external_flash_override_texts.txt',
       'external_variables'          => 'gamedata/external_variables.txt?v=11',
       'external_texts'              => 'gamedata/external_flash_texts.txt',
       'external_figurepartlist'     => 'gamedata/figuredata.xml',
@@ -35,7 +35,7 @@ class Config
 
     const site = array(
       'domain'      => 'habbu.org',
-      'cpath'       => 'https://images.cosmicproject.online/library',
+      'cpath'       => 'https://habbus.org/ms-swf',
       'fpath'       => 'https://habbo.com.br/habbo-imaging',
       'shortname'   => 'Habbu',
       'sitename'    => 'Habbu'
