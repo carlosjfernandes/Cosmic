@@ -15,7 +15,7 @@ $GLOBALS['language'] = array (
             'nav_team'              => 'Equipo',
             'nav_exchange'          => 'Tienda',
 
-            'nav_shop'              => 'shop',
+            'nav_shop'              => 'tienda',
             'nav_buy_points'        => 'Tienda ' . Config::site['shortname'],
             'nav_buy_club'          => 'Comprar ' . Config::site['shortname'] . ' Club',
             'nav_purchasehistory'   => 'Historial de compras',
