@@ -7,5 +7,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 
-RewriteCond %{REQUEST_URI}  !(library) [NC]
 RewriteRule ^(.*)$ index.php?$1 [L,QSA]
