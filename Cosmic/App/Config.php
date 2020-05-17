@@ -41,8 +41,8 @@ class Config
       'sitename'    => 'Habbu'
     );
       
-    const language = 'EN';
-    const region = 'Europe/Amsterdam';
+    const language = 'ES';
+    const region = 'America/Caracas';
   
     const SECRET_TOKEN = 'COSMIC-shdl3w5rvb4ef141spbed';
 
