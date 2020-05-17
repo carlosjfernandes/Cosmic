@@ -23,7 +23,7 @@ class Config
       'external_base'               => 'gordon/PRODUCTION-201904011212-888653470',
       'client_swf'                  => 'Habbo.swf',
       'client_radio'                => 'https://21253.live.streamtheworld.com/WEB16_AAC.aac',
-      'client_host'                 => '151.80.54.177',
+      'client_host'                 => '154.16.67.70',
       'client_port'                 => 3000
     );
   
@@ -37,8 +37,8 @@ class Config
       'domain'      => 'cosmicproject.online',
       'cpath'       => 'https://images.cosmicproject.online/library',
       'fpath'       => 'https://habbo.com.br/habbo-imaging',
-      'shortname'   => 'Cosmic',
-      'sitename'    => 'Cosmic'
+      'shortname'   => 'Habbu',
+      'sitename'    => 'Habbu'
     );
       
     const language = 'EN';
