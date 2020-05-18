@@ -255,12 +255,12 @@ $GLOBALS['language'] = array (
         'help' => array (
           /*  Help/help.html  */
             'help_title'                => 'FAQ',
-            'help_label'                => 'Find all the answers about your questions here!',
-            'help_other_questions'      => 'Other questions',
-            'help_content_1'            => 'Didn\'t find the answer to your question? Do not hesitate to contact our customer service so that we can provide more information.',
-            'help_contact'              => 'Contact',
-            'title'                     => 'Help Tool',
-            'desc'                      => 'You can search here for answers to your questions. If you cannot find the answer to your question, submit a request.',
+            'help_label'                => '¡Encuentra todas las respuestas sobre tus preguntas aquí!',
+            'help_other_questions'      => 'Otras preguntas',
+            'help_content_1'            => '¿No encontró la respuesta a su pregunta? No dude en ponerse en contacto con nuestro servicio al cliente para que podamos brindarle más información.',
+            'help_contact'              => 'Contacto',
+            'title'                     => 'Tickets',
+            'desc'                      => 'Puedes buscar aquí las respuestas a tus preguntas. Si no la encuentras enviar una nueva solicitud.',
 
           /*  Help/request.html  */
             'request_closed'            => 'CLOSED',
@@ -270,15 +270,15 @@ $GLOBALS['language'] = array (
             'request_react'             => 'React',
             'request_description'       => 'Description',
             'request_react_on_ticket'   => 'React on ticket',
-            'request_contact'           => 'Contact ' . Config::site['shortname'],
-            'request_contact_help'      => 'You can contact us by opening a new ticket.',
-            'request_new_ticket'        => 'New ticket',
-            'request_subject'           => 'Subject',
+            'request_contact'           => 'Contactar a ' . Config::site['shortname'],
+            'request_contact_help'      => 'Puedes contactar con nosotros abriendo un nuevo ticket.',
+            'request_new_ticket'        => 'Nuevo ticket',
+            'request_subject'           => 'Asunto',
             'request_type'              => 'Type',
-            'request_status'            => 'Ticket opened',
-            'request_in_treatment'      => 'In treatment',
-            'request_open'              => 'Open',
-            'request_closed'            => 'Closed'
+            'request_status'            => 'Ticket abierto',
+            'request_in_treatment'      => 'En proceso',
+            'request_open'              => 'Abierto',
+            'request_closed'            => 'Cerrado'
         ),
         'help_new' => array (
             'title'         => 'Mi ticket',
