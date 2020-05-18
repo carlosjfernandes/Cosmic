@@ -558,11 +558,11 @@ $GLOBALS['language'] = array (
     'core' => array (
         'belcredits' => 'GOTW-Points',
         'hotelapi' => array (
-            'disabled' => 'Cannot process request because the hotelapi is turned off!'
+            'disabled' => '¡No se puede procesar la solicitud porque el hotelapi está apagado!'
         ),
         'dialog' => array (
-            'logged_in'             => 'Oops to visit this page you must be logged in!',
-            'not_logged_in'         => 'You do not have to be logged in to visit this page!'
+            'logged_in'             => '¡Vaya para visitar esta página, debe iniciar sesión!',
+            'not_logged_in'         => '¡No es necesario iniciar sesión para visitar esta página!'
         ),
         'notification' => array (
             'message_placed'        => 'Your message has been posted!',
@@ -613,8 +613,8 @@ $GLOBALS['language'] = array (
                 'namechange'    => 'Cambiar nombre de usuario'
             ),
             'community' => array (
-                'index'     => 'Community',
-                'photos'    => 'Photo\'s',
+                'index'     => 'Comunidad',
+                'photos'    => 'Fotos',
                 'staff'     =>  Config::site['shortname'] . ' Staff',
                 'team'      =>  Config::site['shortname'] . ' Team',
                 'fansites'  => 'Fansites',
@@ -622,28 +622,28 @@ $GLOBALS['language'] = array (
                 'forum'     => 'My Guilds'
             ),
             'games' => array (
-                'ranking'   => 'Highscores'
+                'ranking'   => 'Puntuaciones'
             ),
             'shop' => array (
                 'index'     =>  Config::site['shortname'] . ' Store',
-                'history'   => 'Purchase history',
+                'history'   => 'Historial de compras',
                 'club'      =>  Config::site['shortname'] . ' Club'
             ),
             'help' => array (
-                'index'     => 'Help Tool',
-                'requests'  => 'Help Tickets',
-                'new'       => 'Open Help Ticket'
+                'index'     => 'Ayuda',
+                'requests'  => 'Tickets',
+                'new'       => 'Nuevo Ticket'
             ),
             'jobs' => array (
-                'index'     =>  Config::site['shortname'] . ' Vacancies',
-                'apply'     => 'Respond to vacancy'
+                'index'     => 'Vacantes',
+                'apply'     => 'Responder a Vacante'
             )
         )
     ),
     'login' => array (
-        'invalid_password'          => 'Invalid password.',
-        'invalid_pincode'           => 'This pin code does not match that of this ' . Config::site['shortname'] . '!',
-        'fill_in_pincode'           => 'Enter your pin code now to gain access to your account!'
+        'invalid_password'          => 'Contraseña invalida.',
+        'invalid_pincode'           => 'Este código pin no coincide con el de ' . Config::site['shortname'],
+        'fill_in_pincode'           => 'Ingrese su código PIN ahora para obtener acceso a su cuenta'
     ),
     'register' => array (
         'username_invalid'          =>  Config::site['shortname'] . 'name is contrary to the ' . Config::site['shortname'] . ' Rules.',
