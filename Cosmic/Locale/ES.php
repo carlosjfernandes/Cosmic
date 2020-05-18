@@ -26,7 +26,7 @@ $GLOBALS['language'] = array (
 
             'nav_forum'             => 'Mis Grupos',
 
-            'nav_helptool'          => 'Herramientas de Ayuda',
+            'nav_helptool'          => 'Soporte',
             'nav_helptickets'       => 'Tickets de Soporte',
 
             'nav_housekeeping'      => 'Administración',
@@ -59,7 +59,7 @@ $GLOBALS['language'] = array (
             'header_register'       => 'Registrate Gratis',
             'header_to'             => 'Entrar a',
 
-            'footer_helptool'       => 'Herramientas de ayuda',
+            'footer_helptool'       => 'Ayuda',
             'footer_rules'          => 'Reglas',
             'footer_terms'          => 'Terminos & Condiciones',
             'footer_privacy'        => 'Declaración de privacidad',
