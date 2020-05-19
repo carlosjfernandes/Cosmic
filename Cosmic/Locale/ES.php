@@ -218,16 +218,16 @@ $GLOBALS['language'] = array (
 
         /*     App/View/Community     */
         'community_photos' => array (
-            'by'          => 'by',
-            'photos_by'   => 'Photos\'s by',
-            'photos_desc' => 'See all the latest pictures taken by',
-            'load_more'   => 'View more photos'
+            'by'          => 'por',
+            'photos_by'   => 'Fotos de',
+            'photos_desc' => 'Mira las últimas fotos tomadas por los miembros de esta hermosa comunidad',
+            'load_more'   => 'Ver mas fotos'
         ),
         'community_staff' => array (
-            'title'       => 'How do I become staff at ' . Config::site['shortname'] . ' ?',
-            'desc'        => 'Our staff is here to help and guide you within this hotel!',
-            'content_1'   => 'Of course everyone dreams of being staff at ' . Config::site['shortname'] . ' , but unfortunately this is not for everyone. To become staff at ' . Config::site['shortname'] . '  you must apply.',
-            'content_2'   => 'This is only possible at times when we have vacancies, when we have this, this is mentioned in the news.'
+            'title'       => '¿Cómo puedo ser Staff de ' . Config::site['shortname'] . ' ?',
+            'desc'        => '¡Nuestro personal está aquí para ayudarlo y guiarlo dentro de este hotel!',
+            'content_1'   => 'Por supuesto, todos sueñan con ser staff en ' . Config::site['shortname'] . ' , pero desafortunadamente esto no es para todos. Para ser staff en ' . Config::site['shortname'] . '  debes aplicar.',
+            'content_2'   => 'Esto solo es posible en momentos en que tenemos vacantes, cuando tenemos esto, esto se menciona en las noticias.'
         ),
         'community_value' => array (
             'title_header'      => 'Catalogue marketplace',
@@ -263,9 +263,9 @@ $GLOBALS['language'] = array (
             'desc'                      => 'Puedes buscar aquí las respuestas a tus preguntas. Si no la encuentras enviar una nueva solicitud.',
 
           /*  Help/request.html  */
-            'request_closed'            => 'CLOSED',
+            'request_closed'            => 'Cerrado',
             'request_on'                => 'On:',
-            'request_ticket_amount'     => 'Amount of tickets:',
+            'request_ticket_amount'     => 'Cantidad de tickets:',
             'request_react_on'          => 'React on:',
             'request_react'             => 'React',
             'request_description'       => 'Description',
@@ -619,7 +619,7 @@ $GLOBALS['language'] = array (
                 'team'      =>  Config::site['shortname'] . ' Team',
                 'fansites'  => 'Fansites',
                 'value'     => 'Catalogue Marketplace',
-                'forum'     => 'My Guilds'
+                'forum'     => 'Mis Grupos'
             ),
             'games' => array (
                 'ranking'   => 'Puntuaciones'
@@ -647,62 +647,62 @@ $GLOBALS['language'] = array (
     ),
     'register' => array (
         'username_invalid'          =>  Config::site['shortname'] . 'name is contrary to the ' . Config::site['shortname'] . ' Rules.',
-        'username_exists'           =>  Config::site['shortname'] . 'name is already in use :-(',
-        'email_exists'              =>  'This e-mail address is already in use :-(',
-        'too_many_accounts'         => 'There are too many accounts registered on this ip :-('
+        'username_exists'           =>  'El nombre de usuario ya se encuentra ocupado',
+        'email_exists'              =>  'Esta dirección de correo electrónico ya está en uso',
+        'too_many_accounts'         =>  'Hay demasiadas cuentas registradas en esta ip'
     ),
     'claim' => array (
-        'invalid_email'             => 'This e-mail address does not match that of this ' . Config::site['shortname'] . ' ID.',
-        'invalid_link'              => 'This link has expired. Request your password again to change your password.',
-        'send_link'                 => 'We have just sent you an e-mail! Received nothing? Then check the junk e-mail folder.',
-        'password_changed'          => 'Your password has been changed. You can now log in again!',
+        'invalid_email'             => 'Esta dirección de correo electrónico no coincide con el usuario',
+        'invalid_link'              => 'Este enlace ha expirado. Solicite su contraseña nuevamente para cambiar su contraseña.',
+        'send_link'                 => '¡Te acabamos de enviar un correo electrónico! No olvides revisar en correos no deseados.',
+        'password_changed'          => 'Tu contraseña ha sido cambiada. Ahora puede iniciar sesión de nuevo.',
 
         'email'  => array (
-            'title'                 => 'Change your password.'
+            'title'                 => 'Cambia tu contraseña.'
         )
     ),
     'settings' => array (
-        'email_saved'               => 'Your e-mail address has been changed.',
-        'pincode_saved'             => 'Your pin code has been saved, you will have to log in again. See you soon! :)',
-        'password_saved'            => 'Your password has been changed. You will now have to log in again. See you soon! :)',
-        'preferences_saved'         => 'Your preferences have been saved!',
-        'current_password_invalid'  => 'Current password does not match that of your ' . Config::site['shortname'] . ' ID.',
-        'choose_new_username'       => 'Enter a new ' . Config::site['shortname'] . 'name.',
-        'choose_new_pincode'        => 'Enter a new pin code.',
+        'email_saved'               => 'Su dirección de correo electrónico ha sido modificada.',
+        'pincode_saved'             => 'Su código PIN se ha guardado, deberá iniciar sesión nuevamente. Te veo pronto.',
+        'password_saved'            => 'Tu contraseña ha sido cambiada. Ahora tendrá que iniciar sesión nuevamente. Te veo pronto',
+        'preferences_saved'         => 'Tus preferencias han sido guardadas',
+        'current_password_invalid'  => 'La contraseña actual no coincide con la de su usuario',
+        'choose_new_username'       => 'Ingresa un nuevo nombre',
+        'choose_new_pincode'        => 'Ingrese un nuevo código PIN.',
         'user_is_active'            => 'This ' . Config::site['shortname'] . ' may still be active!',
-        'user_not_exists'           => 'This ' . Config::site['shortname'] . 'name is available and does not exist yet!',
-        'name_change_saved'         => 'Your application will be processed, 50 gotw-points have been debited.',
-        'invalid_secretcode'        => 'Google Authentication secret code is incorrect.',
+        'user_not_exists'           => 'El nombre que has colocado no existe y puede ser usado.',
+        'name_change_saved'         => 'Su solicitud será procesada, se han cargado 50 puntos.',
+        'invalid_secretcode'        => 'El código secreto de autenticación de Google es incorrecto.',
         'enabled_secretcode'        => 'Authentication method set! You will have to log in again... see you soon!',
         'disabled_secretcode'       => 'Authentication method disabled!'
     ),
     'shop' => array (
         'offers' => array (
-            'invalid_transaction'   => 'Transaction could not be processed!',
-            'invalid_code'          => 'The code you entered is incorrect.',
-            'success_1'             => 'Thank you for your purchase! You have received',
+            'invalid_transaction'   => '¡La transacción no pudo ser procesada!',
+            'invalid_code'          => 'El código que ingresó es incorrecto.',
+            'success_1'             => 'Gracias por su compra. Has recibido',
             'success_2'             => 'gotw-points.'
         ),
         'club' => array (
-            'already_vip'           => 'You are an unlimited member of the ' . Config::site['shortname'] . ' Club.',
-            'purchase_success'      => 'Yeah! You are now a member of the ' . Config::site['shortname'] . ' Club for 31 days.'
+            'already_vip'           => 'Eres un miembro ilimitado de la ' . Config::site['shortname'] . ' Club.',
+            'purchase_success'      => '¡Si! Ahora eres miembro de la ' . Config::site['shortname'] . ' Club por 31 dias.'
 
         ),
         'marketplace' => array(
-            'expired'               => 'Item is expired, its not possible to purchase this item!',
-            'purchased'             => 'Item is succesfull purchased and is now added to your inventory',
-            'regards'               => 'Your item has been arrived! Friendly regards from ' . Config::site['shortname']
+            'expired'               => '¡El artículo ha caducado, no es posible comprar este artículo!',
+            'purchased'             => 'El artículo se compró correctamente y ahora se agrega a su inventario',
+            'regards'               => 'Su artículo ha llegado. Saludos amistosos de ' . Config::site['shortname']
         )
     ),
     'help' => array (
-        'ticket_created'            => 'Your Help Ticket has been created. View your Help Tickets to view the help request.',
-        'ticket_received'           => 'An ' . Config::site['shortname'] . ' Staff has responded to your Help Tool ticket. Visit the Help Tool to view the response.',
-        'already_open'              => 'You still have an outstanding ticket! When this has been treated you can create a ticket again.',
-        'no_answer_yet'             => 'You can only respond once an ' . Config::site['shortname'] . ' Staff has answered your ticket.',
+        'ticket_created'            => 'Su ticket de ayuda ha sido creado. Vea sus tickets de ayuda para ver la solicitud de ayuda.',
+        'ticket_received'           => 'Un ' . Config::site['shortname'] . ' Staff ha respondido a su ticket de la herramienta de ayuda. Visite la herramienta de ayuda para ver la respuesta.',
+        'already_open'              => '¡Aún tienes un boleto pendiente! Cuando esto haya sido tratado, puede crear un ticket nuevamente.',
+        'no_answer_yet'             => 'Solo puedes responder una vez el ' . Config::site['shortname'] . ' Staff ha respondido su ticket.',
     ),
     'forum' => array (
-        'is_sticky'                 => 'Sticky updated!',
-        'is_closed'                 => 'Topic status changed!'
+        'is_sticky'                 => 'Sticky actualizado!',
+        'is_closed'                 => 'El estado del tema ha cambiado.'
     ),
 
     /*     Housekeeping     */
