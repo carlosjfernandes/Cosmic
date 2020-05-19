@@ -2216,7 +2216,7 @@ input:-webkit-autofill {
 .aside-desc-content {
     font-weight: 300;
     font-size: 12px;
-    padding: 0px 20px 15px;
+    padding: 0px 20px 0px;
 }
 
 .aside-title {
